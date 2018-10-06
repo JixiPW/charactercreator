@@ -52,7 +52,6 @@ namespace Charactersheetcreator
             {
                 strength = strength * 1.2f;
                 stamina = stamina * 1.2f;
-
             }
             else if (characterRace == "Elf")
             {
@@ -127,7 +126,6 @@ namespace Charactersheetcreator
             {
                 title = "the Shadowhunter";
             }
-
             else if (characterClass == "Mage" && characterRace == "Human")
             {
                 title = "the Merlin";
@@ -152,7 +150,6 @@ namespace Charactersheetcreator
             {
                 title = "the Pyroblast";
             }
-
             else if (characterClass == "Monk" && characterRace == "Human")
             {
                 title = "the Holyness";
@@ -177,7 +174,6 @@ namespace Charactersheetcreator
             {
                 title = "the Naturous";
             }
-
             else if (characterClass == "Paladin" && characterRace == "Human")
             {
                 title = "the Templar";
@@ -202,7 +198,6 @@ namespace Charactersheetcreator
             {
                 title = "the Light Champion";
             }
-
             else if (characterClass == "Shaman" && characterRace == "Human")
             {
                 title = "the Tesla";
@@ -227,7 +222,6 @@ namespace Charactersheetcreator
             {
                 title = "the Magic Forrester";
             }
-
             else if (characterClass == "Warrior" && characterRace == "Human")
             {
                 title = "the Lionheart";
