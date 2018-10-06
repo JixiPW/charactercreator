@@ -34,61 +34,62 @@ namespace Charactersheetcreator
             {
                 intellect = intellect * 1.4f;
             }
-            if (characterRace == "Orc")
+            else if (characterRace == "Orc")
             {
                 stamina = stamina * 1.4f;
             }
-            if (characterRace == "Troll")
+            else if (characterRace == "Troll")
             {
                 stamina = stamina * 1.1f;
                 agility = agility * 1.3f;
             }
-            if (characterRace == "Gnome")
+            else if (characterRace == "Gnome")
             {
                 agility = agility * 1.2f;
                 intellect = intellect * 1.2f;
             }
-            if (characterRace == "Dwarf")
+            else if (characterRace == "Dwarf")
             {
                 strength = strength * 1.2f;
                 stamina = stamina * 1.2f;
+
             }
-            if (characterRace == "Elf")
+            else if (characterRace == "Elf")
             {
                 agility = agility * 1.4f;
             }
 
             // Add class stat to basic stat
-            if (characterClass == "Hunter")
+            else if (characterClass == "Hunter")
             {
                 strength = strength * 1.3f;
                 agility = agility * 1.3f;
             }
-            if (characterClass == "Mage")
+            else if (characterClass == "Mage")
             {
                 intellect = intellect * 1.3f;
                 agility = agility * 1.3f;
             }
-            if (characterClass == "Monk")
+            else if (characterClass == "Monk")
             {
                 stamina = stamina * 1.1f;
                 strength = strength * 1.2f;
                 agility = agility * 1.3f;
             }
-            if (characterClass == "Paladin")
+            else if (characterClass == "Paladin")
             {
                 stamina = stamina * 1.2f;
                 strength = strength * 1.2f;
                 agility = agility * 1.2f;
             }
-            if (characterClass == "Shaman")
+            else if (characterClass == "Shaman")
             {
                 strength = strength * 1.1f;
                 intellect = intellect * 1.2f;
                 agility = agility * 1.3f;
 
             }
-            if (characterClass == "Warrior")
+            else if (characterClass == "Warrior")
             {
                 stamina = stamina * 1.2f;
                 strength = strength * 1.3f;
@@ -106,148 +107,148 @@ namespace Charactersheetcreator
             {
                 title = "the Marksman";
             }
-            if (characterClass == "Hunter" && characterRace == "Orc")
+            else if (characterClass == "Hunter" && characterRace == "Orc")
             {
                 title = "the Preditor";
             }
-            if (characterClass == "Hunter" && characterRace == "Troll")
+            else if (characterClass == "Hunter" && characterRace == "Troll")
             {
                 title = "the Raptor";
             }
-            if (characterClass == "" && characterRace == "Gnome")
+            else if (characterClass == "" && characterRace == "Gnome")
             {
                 title = "the Tiny Arrow";
             }
-            if (characterClass == "Hunter" && characterRace == "Dwarf")
+            else if (characterClass == "Hunter" && characterRace == "Dwarf")
             {
                 title = "the Hunterous";
             }
-            if (characterClass == "Hunter" && characterRace == "Elf")
+            else if (characterClass == "Hunter" && characterRace == "Elf")
             {
                 title = "the Shadowhunter";
             }
-                       
-            if (characterClass == "Mage" && characterRace == "Human")
+
+            else if (characterClass == "Mage" && characterRace == "Human")
             {
                 title = "the Merlin";
             }
-            if (characterClass == "Mage" && characterRace == "Orc")
+            else if (characterClass == "Mage" && characterRace == "Orc")
             {
                 title = "the Firestarter";
             }
-            if (characterClass == "Mage" && characterRace == "Troll")
+            else if (characterClass == "Mage" && characterRace == "Troll")
             {
                 title = "the Firemaker";
             }
-            if (characterClass == "Mage" && characterRace == "Gnome")
+            else if (characterClass == "Mage" && characterRace == "Gnome")
             {
                 title = "the Tinyblast";
             }
-            if (characterClass == "Mage" && characterRace == "Dwarf")
+            else if (characterClass == "Mage" && characterRace == "Dwarf")
             {
                 title = "the Ashbringer";
             }
-            if (characterClass == "Mage" && characterRace == "Elf")
+            else if (characterClass == "Mage" && characterRace == "Elf")
             {
                 title = "the Pyroblast";
             }
-                       
-            if (characterClass == "Monk" && characterRace == "Human")
+
+            else if (characterClass == "Monk" && characterRace == "Human")
             {
                 title = "the Holyness";
             }
-            if (characterClass == "Monk" && characterRace == "Orc")
+            else if (characterClass == "Monk" && characterRace == "Orc")
             {
                 title = "the Lightbringer";
             }
-            if (characterClass == "Monk" && characterRace == "Troll")
+            else if (characterClass == "Monk" && characterRace == "Troll")
             {
                 title = "the Lightsource";
             }
-            if (characterClass == "Monk" && characterRace == "Gnome")
+            else if (characterClass == "Monk" && characterRace == "Gnome")
             {
                 title = "the Kneekicker";
             }
-            if (characterClass == "Monk" && characterRace == "Dwarf")
+            else if (characterClass == "Monk" && characterRace == "Dwarf")
             {
                 title = "the Winebringer";
             }
-            if (characterClass == "Monk" && characterRace == "Elf")
+            else if (characterClass == "Monk" && characterRace == "Elf")
             {
                 title = "the Naturous";
             }
 
-            if (characterClass == "Paladin" && characterRace == "Human")
+            else if (characterClass == "Paladin" && characterRace == "Human")
             {
                 title = "the Templar";
             }
-            if (characterClass == "Paladin" && characterRace == "Orc")
+            else if (characterClass == "Paladin" && characterRace == "Orc")
             {
                 title = "the Black Knight";
             }
-            if (characterClass == "Paladin" && characterRace == "Troll")
+            else if (characterClass == "Paladin" && characterRace == "Troll")
             {
                 title = "the Beastrider";
             }
-            if (characterClass == "Paladin" && characterRace == "Gnome")
+            else if (characterClass == "Paladin" && characterRace == "Gnome")
             {
                 title = "the Crusader";
             }
-            if (characterClass == "Paladin" && characterRace == "Dwarf")
+            else if (characterClass == "Paladin" && characterRace == "Dwarf")
             {
                 title = "the Iron Dwarf";
             }
-            if (characterClass == "Paladin" && characterRace == "Elf")
+            else if (characterClass == "Paladin" && characterRace == "Elf")
             {
                 title = "the Light Champion";
             }
-            
-            if (characterClass == "Shaman" && characterRace == "Human")
+
+            else if (characterClass == "Shaman" && characterRace == "Human")
             {
                 title = "the Tesla";
             }
-            if (characterClass == "Shaman" && characterRace == "Orc")
+            else if (characterClass == "Shaman" && characterRace == "Orc")
             {
                 title = "the Demonseeker";
             }
-            if (characterClass == "Shaman" && characterRace == "Troll")
+            else if (characterClass == "Shaman" && characterRace == "Troll")
             {
                 title = "the Witch";
             }
-            if (characterClass == "Shaman" && characterRace == "Gnome")
+            else if (characterClass == "Shaman" && characterRace == "Gnome")
             {
                 title = "the Little Lightning";
             }
-            if (characterClass == "Shaman" && characterRace == "Dwarf")
+            else if (characterClass == "Shaman" && characterRace == "Dwarf")
             {
                 title = "the Elemental Source";
             }
-            if (characterClass == "Shaman" && characterRace == "Elf")
+            else if (characterClass == "Shaman" && characterRace == "Elf")
             {
                 title = "the Magic Forrester";
             }
-                       
-            if (characterClass == "Warrior" && characterRace == "Human")
+
+            else if (characterClass == "Warrior" && characterRace == "Human")
             {
                 title = "the Lionheart";
             }
-            if (characterClass == "Warrior" && characterRace == "Orc")
+            else if (characterClass == "Warrior" && characterRace == "Orc")
             {
                 title = "the Strong";
             }
-            if (characterClass == "Warrior" && characterRace == "Troll")
+            else if (characterClass == "Warrior" && characterRace == "Troll")
             {
                 title = "the Conquerer";
             }
-            if (characterClass == "Warrior" && characterRace == "Gnome")
+            else if (characterClass == "Warrior" && characterRace == "Gnome")
             {
                 title = "the Brave";
             }
-            if (characterClass == "Warrior" && characterRace == "Dwarf")
+            else if (characterClass == "Warrior" && characterRace == "Dwarf")
             {
                 title = "the Stronghold";
             }
-            if (characterClass == "Warrior" && characterRace == "Elf")
+            else if (characterClass == "Warrior" && characterRace == "Elf")
             {
                 title = "the Wise";
             }
