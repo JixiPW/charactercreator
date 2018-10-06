@@ -267,23 +267,23 @@ namespace Charactersheetcreator
             {
                 characterRace = "Human";
             }
-            if (race == "2")
+            else if (race == "2")
             {
                 characterRace = "Orc";
             }
-            if (race == "3")
+            else if (race == "3")
             {
                 characterRace = "Troll";
             }
-            if (race == "4")
+            else if (race == "4")
             {
                 characterRace = "Gnome";
             }
-            if (race == "5")
+            else if (race == "5")
             {
                 characterRace = "Dwarf";
             }
-            if (race == "6")
+            else if (race == "6")
             {
                 characterRace = "Elf";
             }
@@ -305,23 +305,23 @@ namespace Charactersheetcreator
             {
                 characterClass = "Hunter";
             }
-            if (chrclass == "2")
+            else if (chrclass == "2")
             {
                 characterClass = "Mage";
             }
-            if (chrclass == "3")
+            else if (chrclass == "3")
             {
                 characterClass = "Monk";
             }
-            if (chrclass == "4")
+            else if (chrclass == "4")
             {
                 characterClass = "Paladin";
             }
-            if (chrclass == "5")
+            else if (chrclass == "5")
             {
                 characterClass = "Shaman";
             }
-            if (chrclass == "6")
+            else if (chrclass == "6")
             {
                 characterClass = "Warrior";
             }
