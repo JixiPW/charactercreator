@@ -52,7 +52,6 @@ namespace Charactersheetcreator
             {
                 strength = strength * 1.2f;
                 stamina = stamina * 1.2f;
-
             }
             if (characterRace == "Elf")
             {
@@ -268,23 +267,23 @@ namespace Charactersheetcreator
             {
                 characterRace = "Human";
             }
-            else if (race == "2")
+            if (race == "2")
             {
                 characterRace = "Orc";
             }
-            else if (race == "3")
+            if (race == "3")
             {
                 characterRace = "Troll";
             }
-            else if (race == "4")
+            if (race == "4")
             {
                 characterRace = "Gnome";
             }
-            else if (race == "5")
+            if (race == "5")
             {
                 characterRace = "Dwarf";
             }
-            else if (race == "6")
+            if (race == "6")
             {
                 characterRace = "Elf";
             }
@@ -306,23 +305,23 @@ namespace Charactersheetcreator
             {
                 characterClass = "Hunter";
             }
-            else if (chrclass == "2")
+            if (chrclass == "2")
             {
                 characterClass = "Mage";
             }
-            else if (chrclass == "3")
+            if (chrclass == "3")
             {
                 characterClass = "Monk";
             }
-            else if (chrclass == "4")
+            if (chrclass == "4")
             {
                 characterClass = "Paladin";
             }
-            else if (chrclass == "5")
+            if (chrclass == "5")
             {
                 characterClass = "Shaman";
             }
-            else if (chrclass == "6")
+            if (chrclass == "6")
             {
                 characterClass = "Warrior";
             }
