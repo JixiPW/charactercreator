@@ -35,7 +35,7 @@ namespace Battlesimulator
                 }
                 health -= damage;
                 Console.WriteLine($"The player took a hit and has {health} health left");
-                if (health == 0)
+                if (health <= 0)
                 {
                     Console.WriteLine("The player is dead!");
                     break;
