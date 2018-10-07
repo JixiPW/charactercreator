@@ -26,9 +26,6 @@ namespace Battlesimulator
             input = Console.ReadLine();
             int dodge = Convert.ToInt32(input);
 
-            Console.WriteLine($"Health: {health}, Hit: {hit}, Damage: {damage}, Dodge: {dodge}");
-            Console.ReadLine();
-
             for (int i = 0; i < hit; i++)
             {
                 Random rnd = new Random();
